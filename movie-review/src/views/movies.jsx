@@ -2,7 +2,10 @@ import React from 'react';
 
 const Movies= () => {
   return (
-       <div class="y-wrap">Movie Page</div>
+       <div class="y-wrap">
+        <h1>Movies</h1>
+        
+        </div>
   );
 };
 

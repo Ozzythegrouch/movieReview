@@ -6,8 +6,7 @@ const Landing= () => {
   }, []);
   return (
        <div class="y-wrap">
-          <div class="moviesHome">Movies</div>
-          <div class="showsHome">Shows</div>
+          Landing Page
        </div>
   );
 };

@@ -6,6 +6,8 @@ import { Shows } from '../views';
 import { Login } from '../views';
 import { Contact } from '../views';
 import { About } from '../views';
+import {Profile} from '../views';
+import {SignUp} from '../views/';
 
 const Main = () => {
   return (
@@ -15,6 +17,8 @@ const Main = () => {
         <Route path="/movies" element={<Movies />} />
         <Route path="/shows" element={<Shows />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element ={<SignUp />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
       </Routes>

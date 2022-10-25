@@ -6,12 +6,13 @@
 
 body,
 html {
+  background-color: #606060;
   height: 100%;
 }
 
 footer,
 header {
-  background-color: #ddd;
+  background-color: #a3a3a3;
 }
 
 footer {
@@ -45,4 +46,29 @@ main {
 nav {
   display: flex;
   justify-content: space-around;
+}
+
+.user-profile-container{
+  display:flex;
+}
+.user-profile{
+  display:flex;
+  flex-direction: column;
+}
+
+.watch-list{
+  display: flex;
+  flex-direction: column;
+}
+.to-watch{
+  display:flex;
+  justify-content: column;
+
+}
+.just-watched{
+  display:flex;
+
+}
+.user-list{
+  display: flex;
 }
