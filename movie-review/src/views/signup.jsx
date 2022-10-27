@@ -5,11 +5,11 @@ const SignUp= () => {
        <div class="y-wrap">
           <h1>SignUp Page</h1>
     <form class="form-signup">
-    <div class="form-row mb-4">
-        <div class="col">      
+    <div class="name-signup-container">
+        <div class="first-name-container">      
             <input type="text" id="first-name" class="first-name" placeholder="First name" />
         </div>
-        <div class="col">
+        <div class="last-name-container">
             <input type="text" id="last-name" class="last-name" placeholder="Last name" />
         </div>
     </div>
