@@ -3,9 +3,9 @@ import NavSearch from '../components/search';
 
 const Shows= () => {
   return (
-       <div class="y-wrap">
+       <div className="y-wrap">
         <h1>Shows</h1>
-        <div class="search-shows">
+        <div className="search-shows">
           <NavSearch />
           <div class = "search-shows-results">
             <button>To Watch</button>

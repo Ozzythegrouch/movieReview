@@ -2,11 +2,11 @@ import React from 'react';
 
 const NavSearch = () => { 
     return (
-        <div class="search-input">
-            <div class="search-form">
-                <input type="search" id="search" class="search" />
-                <label class="search-label" for="search"></label>
-                <button type="button" class="btn-search">Search</button>
+        <div className="search-input">
+            <div className="search-form">
+                <input type="search" id="search" className="search" />
+                <label className="search-label" htmlFor="search"></label>
+                <button type="button" className="btn-search">Search</button>
             </div>
         </div>
         )

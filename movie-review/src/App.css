@@ -28,6 +28,11 @@ main {
   padding: 20px 0;
 }
 
+li {
+  list-style: none;
+  font-size: 1.25rem;
+}
+
 .root {
   height: 100%;
 }

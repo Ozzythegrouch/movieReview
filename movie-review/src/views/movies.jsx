@@ -3,7 +3,7 @@ import NavSearch from '../components/search';
 
 const Movies= () => {
   return (
-       <div class="y-wrap">
+       <div className="y-wrap">
           <h1>Movies</h1>
           <div class = "search-movies">
             <NavSearch />

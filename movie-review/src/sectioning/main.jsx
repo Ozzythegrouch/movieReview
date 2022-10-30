@@ -11,7 +11,7 @@ import {SignUp} from '../views/';
 
 const Main = () => {
   return (
-    <main class="y-wrap">
+    <main className="y-wrap">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/movies" element={<Movies />} />
