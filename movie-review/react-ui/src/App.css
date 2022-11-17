@@ -48,10 +48,70 @@ li {
   width: 90%;
 }
 
+/* navbar header */
 nav {
   display: flex;
   justify-content: space-around;
 }
+
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+
+.nav-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.navbar-links-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links-container li {
+  text-decoration: none;
+  color: white;
+  padding: .5rem;
+  display: block;
+}
+
+.navbar-links-container li:hover {
+  background-color: #7d8a8c;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 2rem;
+  right: 1.25rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 25px;
+}
+
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 750px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+  }
+}
+
+/* profile page */
 
 .user-profile-container{
   display:flex;
@@ -80,7 +140,23 @@ nav {
 
 .movie-show-container{
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-movies-container {
+  height: 580px;
+  overflow-y: auto;
+}
+
+.top-shows-container {
+  height: 580px;
+  overflow-y: auto;
+}
+
+.movie-show-container h1 {
+  display: flex;
+  justify-content: center;
 }
 
 /* landing page movie-show-switch */
@@ -122,7 +198,7 @@ nav {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #666872;
 }
 
 
