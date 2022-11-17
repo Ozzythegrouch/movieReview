@@ -5,9 +5,9 @@ const Movies= () => {
   return (
        <div className="y-wrap">
           <h1>Movies</h1>
-          <div class = "search-movies">
+          <div className = "search-movies">
             <NavSearch />
-            <div class = "search-movie-results">
+            <div className = "search-movie-results">
               <button>To Watch</button>
               <button>Watched</button>
             </div>

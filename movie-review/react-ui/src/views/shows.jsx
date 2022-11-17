@@ -7,7 +7,7 @@ const Shows= () => {
         <h1>Shows</h1>
         <div className="search-shows">
           <NavSearch />
-          <div class = "search-shows-results">
+          <div className = "search-shows-results">
             <button>To Watch</button>
             <button>Watched</button>
           </div>
