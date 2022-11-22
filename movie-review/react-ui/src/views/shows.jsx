@@ -8,8 +8,7 @@ const Shows= () => {
         <div className="search-shows">
           <NavSearch />
           <div className = "search-shows-results">
-            <button>To Watch</button>
-            <button>Watched</button>
+            
           </div>
         </div>
         </div>

@@ -8,8 +8,7 @@ const Movies= () => {
           <div className = "search-movies">
             <NavSearch />
             <div className = "search-movie-results">
-              <button>To Watch</button>
-              <button>Watched</button>
+              
             </div>
           </div>
         </div>
