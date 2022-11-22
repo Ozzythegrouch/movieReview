@@ -33,7 +33,11 @@ li {
   font-size: 1.25rem;
 }
 
-.root {
+button{
+  cursor: pointer;
+}
+
+#root {
   height: 100%;
 }
 
@@ -109,21 +113,113 @@ nav {
   .navbar-links{
     display: none;
   }
+
+  .navbar-links-container .responsive.nav {
+    display: flex;
+  }
 }
 
 /* profile page */
 
 .user-profile-container{
   display:flex;
+  flex-direction: column;
+  border: red solid 1px;
 }
 .user-profile{
   display:flex;
+  flex-direction: row;
+  border: blue solid 1px;
+}
+
+.oscarPic{
+  width: 75px;
+  height: 75px;
+}
+
+.userProfileActivityContainer{
+  background-color: #333;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+} 
+
+.textLink{
+  text-decoration: none;
+}
+
+.userProfileActivityContainer button{
+  cursor: pointer;
+  margin: 2px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.userProfileActivityContainerTop{
+  display: flex;
+}
+
+.userProfileActivityContainerMiddle{
+  display: flex;
+}
+
+.userProfileActivityContainerBottom{
+  display: flex;
+}
+
+@media (max-width: 955px) {
+  .userProfileActivityContainer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .userProfileActivityContainer button{
+    display: flex;
+    margin: 5px;
+    border: 2px;
+  }  
+  .userProfileActivityContainerTop{
+  }
+  .userProfileActivityContainerMiddle{
+    
+  }
+  .userProfileActivityContainerBottom{
+    
+  }
+}
+
+.userFavoriteMoviesContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userFavoriteShowsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userProfileStatsContainer{
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userProfileStatsContainerScores{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
 }
 
 .watch-list{
   display: flex;
-  flex-direction: column;
 }
 .to-watch{
   display:flex;
