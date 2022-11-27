@@ -68,11 +68,18 @@ nav {
 .nav-title {
   font-size: 1.5rem;
   margin: .5rem;
+  display: flex;
 }
 
 .navbar-links-container {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.navbar-links{
   display: flex;
 }
 
@@ -110,11 +117,14 @@ nav {
     display: flex;
   }
 
-  .navbar-links{
+  .navbar-links-container{
     display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
-  .navbar-links-container .responsive.nav {
+  .navbar-links-container .responsive_nav {
     display: flex;
   }
 }
