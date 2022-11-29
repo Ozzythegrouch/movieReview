@@ -7,7 +7,7 @@ import { Login } from '../views';
 import { Contact } from '../views';
 import { About } from '../views';
 import {Profile} from '../views';
-import {SignUp} from '../views/';
+import {SignUp} from '../views/'; 
 
 const Main = () => {
   return (

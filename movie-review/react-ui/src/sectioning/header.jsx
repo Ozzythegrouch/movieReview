@@ -9,7 +9,6 @@ const Header = () => {
   const [showNav, setShowNav] = useState(true)
 
   const handleClick = () => {
-    alert("hello")
     setShowNav(!showNav)
   }
 

@@ -1,28 +1,38 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import LoginForm from '../components/login/login';
 
 const Login= () => {
+
+    // const handleLogin = ((values,actions) => {
+    //     //perform the login request
+    //     const vals = {...values}
+    //     actions.resetForm()
+    //     fetch('http://localhost:8080/login', {
+    //         method: "POST",
+    //         credentials: "include",
+    //         headers:{
+    //             "Content-Type": "application/json"
+    //         },
+    //         body: JSON.stringify(vals),
+    //     }).catch(err => {
+    //         return;
+    //     }).then (res => {
+    //         if (!res || !res.ok || res.status >= 400) {
+    //             return;
+    //         }
+    //         return res.json();
+    //       })
+    //       .then(data => {
+    //         if(!data) return;
+    //         console.log(data)
+    //       })
+    // })
+
   return (
-       <div className="y-wrap">    
-          <form className="form-login">
-              <h1 className="title-login">Login</h1>
-              <input type="email" id="email" className="email" placeholder="email" />
-              <input type="password" id="password" className="password" placeholder="password" />            
-                  <div>
-                      <div className="remember-checkbox">
-                          <input type="checkbox" className="remember" id="remember" />
-                          <label className="remember" htmlFor="remember">Remember me</label>
-                      </div>
-                       <div>    
-                          <NavLink to="../signup">Forgot password?</NavLink>
-                      </div>
-                  </div>
-              <button className="button-login" type="submit">Login</button>
-              <p>Not a member?
-                  <NavLink to="../signup">Register</NavLink>
-              </p>
-          </form>
+       <div className="y-wrap">               
+            <LoginForm />
+            <NavLink to="../signup">Register</NavLink>
         </div>
         );
       };

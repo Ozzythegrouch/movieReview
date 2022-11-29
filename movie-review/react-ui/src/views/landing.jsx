@@ -1,19 +1,17 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import PopularMovies from '../components/popular-movies';
 import PopularTvShows from '../components/popular-tv-shows';
 
 const Landing= () => {
-  const [nextMovies, setNextMovies] = useState([])
-  const [tvShows, setTvShows] = useState([])
   const [isShowMovies, setIsShowMovies] = useState(true)
 
   const handleChange = () => {
     setIsShowMovies(!isShowMovies)
   } 
 
-  const handleClickMovie = () => {
+  // const handleClickMovie = () => {
 
-  }
+  // }
 
   return (
        <div className="y-wrap">

@@ -1,4 +1,5 @@
 import React from 'react';
+import TopRatedTvShows from '../components/daily-popular-show';
 import NavSearch from '../components/search';
 
 const Shows= () => {
@@ -10,6 +11,8 @@ const Shows= () => {
           <div className = "search-shows-results">
             
           </div>
+          <h2>Daily Popular Shows</h2>
+          <TopRatedTvShows />
         </div>
         </div>
   );

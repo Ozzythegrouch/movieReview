@@ -134,12 +134,10 @@ nav {
 .user-profile-container{
   display:flex;
   flex-direction: column;
-  border: red solid 1px;
 }
 .user-profile{
   display:flex;
   flex-direction: row;
-  border: blue solid 1px;
 }
 
 .oscarPic{
@@ -189,16 +187,7 @@ nav {
   .userProfileActivityContainer button{
     display: flex;
     margin: 5px;
-    border: 2px;
   }  
-  .userProfileActivityContainerTop{
-  }
-  .userProfileActivityContainerMiddle{
-    
-  }
-  .userProfileActivityContainerBottom{
-    
-  }
 }
 
 .userFavoriteMoviesContainer{
@@ -321,4 +310,50 @@ input:checked + .slider:before {
 .movie-show-slider{
   display: flex;
   justify-content: space-around;
+}
+
+.popularMoviesImages{
+  
+  margin: 5px;
+}
+
+.popularTvShowsImages{
+  
+  margin: 5px;
+}
+
+.popularMoviesResultsContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.popularMoviesResultsTitleButtons{
+  display: flex;
+  flex-direction: column;
+}
+
+.popularMoviesResultsButtons{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.popularTvShowsResultsContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.popularTvShowsResultsTitleButtons{
+  display: flex;
+  flex-direction: column;
+}
+
+.popularTvShowsResultsButtons{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.moviesPageContainer{
+  display:flex;
 }

@@ -7,6 +7,9 @@ import { Provider } from 'react-redux'
 import reportWebVitals from './reportWebVitals';
 import { fetchPopularMovies } from './components/popular-movies/slice';
 import { fetchPopularTvShows } from './components/popular-tv-shows/slice';
+import { fetchUpcomingMovies } from './components/upcoming-movies/slice';
+import { fetchDailyPopularMovies } from './components/daily-popular/slice';
+import { fetchTopRatedTvShows } from './components/daily-popular-show/slice';
 
 
 async function init(){
@@ -14,6 +17,9 @@ async function init(){
 
   store.dispatch(fetchPopularMovies())
   store.dispatch(fetchPopularTvShows())
+  store.dispatch(fetchUpcomingMovies())
+  store.dispatch(fetchDailyPopularMovies())
+  store.dispatch(fetchTopRatedTvShows())
 
   root.render(
     <React.StrictMode>
