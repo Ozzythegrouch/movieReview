@@ -4,13 +4,14 @@ import PopularTvShows from '../components/popular-tv-shows';
 
 const Landing= () => {
   const [isShowMovies, setIsShowMovies] = useState(true)
+  // const [isNextMovie, setIsNextMovie] = useState[1]
 
   const handleChange = () => {
     setIsShowMovies(!isShowMovies)
   } 
 
   // const handleClickMovie = () => {
-
+  //   setIsNextMovie(!isNextMovie)
   // }
 
   return (
@@ -46,7 +47,7 @@ const Landing= () => {
             )}
             <div className='movieShowButtonPages'>
                   <button className='movieShowPrevious'>Previous</button>
-                  <button className='movieShownext'>Next</button>
+                  <button className='movieShowNext'>Next</button>
             </div>
           </div>
       </div>    

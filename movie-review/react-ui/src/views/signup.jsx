@@ -6,7 +6,7 @@ const SignUp= () => {
   return (
        <div className="y-wrap">
           <SignupForm />
-          <NavLink to="../signup">Login Page</NavLink>
+          <NavLink to="../login">Login Page</NavLink>
         </div>
   );
 };
