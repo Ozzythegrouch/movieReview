@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e959276.css",
-    "main.js": "/static/js/main.b44ae5aa.js",
-    "static/js/787.8e1b65ec.chunk.js": "/static/js/787.8e1b65ec.chunk.js",
-    "static/media/oscar.jpg": "/static/media/oscar.75f29eacbdba134d5811.jpg",
-    "index.html": "/index.html",
-    "main.2e959276.css.map": "/static/css/main.2e959276.css.map",
-    "main.b44ae5aa.js.map": "/static/js/main.b44ae5aa.js.map",
-    "787.8e1b65ec.chunk.js.map": "/static/js/787.8e1b65ec.chunk.js.map"
+    "main.css": "/thebacklogcenter/static/css/main.2e959276.css",
+    "main.js": "/thebacklogcenter/static/js/main.34fee985.js",
+    "static/js/787.8e1b65ec.chunk.js": "/thebacklogcenter/static/js/787.8e1b65ec.chunk.js",
+    "static/media/oscar.jpg": "/thebacklogcenter/static/media/oscar.75f29eacbdba134d5811.jpg",
+    "index.html": "/thebacklogcenter/index.html",
+    "main.2e959276.css.map": "/thebacklogcenter/static/css/main.2e959276.css.map",
+    "main.34fee985.js.map": "/thebacklogcenter/static/js/main.34fee985.js.map",
+    "787.8e1b65ec.chunk.js.map": "/thebacklogcenter/static/js/787.8e1b65ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e959276.css",
-    "static/js/main.b44ae5aa.js"
+    "static/js/main.34fee985.js"
   ]
 }
